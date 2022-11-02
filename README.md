@@ -19,3 +19,6 @@ Once you get the solution window press any key to continue.
 Add All modules
 then download kociemba from GitHub and put it with python library file where it is accessible. then restart vscode it will work , you can also find tutorial for placing files in library folder.
 
+To Install Kociemba -pip install kociemba --
+Install VSCODE installer to update image.png
+
