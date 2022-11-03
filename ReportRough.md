@@ -41,15 +41,18 @@ However, an important point to note is that although Kociemba’s Algorithm is s
 
 Another significant takeaway from this particular solver is the fact that such a solver for a puzzle of a particular order can be built by adding on to the solvers of lower orders of the same category of puzzles, without having to start from scratch. This is precisely how I had built my solver for the 1x2x3 Rubik’s puzzle from my 1x2x2 puzzle solver by adding a few extra lines of code that correctly orient the middle layer pieces which are absent from a 1x2x2 puzzle.
 
+## Background/Scope of the project
 
-
-
-
-
-
-
-
-
+The Rubik's Cube. A source of great frustration to many puzzle enthusiasts around the world. But we aim
+to put an end to those exasperating attempts to solve this colorful cube of misery. Perhaps misery is a bit
+strong, but they can be annoying to try to solve. We have developed a Rubik's Cube Solver (RCS) that
+will solve a standard Rubik's Cube using the Thistlewaite’s Algorithm. We set out to speed up the solve
+time of the Thistlewaite’s Algorithm by utilizing the FPGA to accelerate selected elements of the
+algorithm. To make it as easy as possible for the user, we have a pseudo-3D image of a cube that lets the
+user input the color positions from the cube they are trying to solve. They will then be able to run the
+solver, which will show step-by-step instructions and color changes on the display to walk the user
+through solving their cube. With RCS, solving that pesky Rubik's Cube is as simple as pressing buttons on
+your keyboard
 
 ### References
 - https://en.wikipedia.org/wiki/Rubik%27s_Cube
