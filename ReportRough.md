@@ -40,3 +40,26 @@ The Rubik’s cube solver is just one of the innumerable potential applications 
 However, an important point to note is that although Kociemba’s Algorithm is significantly slower than my solver, the fact that it almost always produces a solution that is much closer to the optimum solution than that produced by mine cannot be ignored. While the Fridrich method (the human method my solver is based on) produces solutions with a mean length of 50–60 moves, Kociemba’s algorithm produces one with a maximum of 29 moves and a minimum of 19. Therefore, the two solvers actually represent two different approaches to solving the same problem: whether we require a solution that is nearly the best and are willing to invest enough time and resources towards obtaining that solution, or are happy with a solution that may not be the shortest but is generated fairly quickly and at the cost of fewest possible resources, the choice is ours. With modern mechanical motors in Rubik's Cube solving robots that can execute each move in as less as 10 milliseconds, executing a handful of extra moves is an almost negligible task. In most real-life problems, an optimal solution may not always prove to be the best solution, especially when it is generated at the cost of an extremely slow and excessively memory-consuming program. Moreover, bringing down this move time of the motors to 5 milliseconds is a more achievable task in near future than developing faster and better search algorithms and reprogramming the other existing solvers to execute them.
 
 Another significant takeaway from this particular solver is the fact that such a solver for a puzzle of a particular order can be built by adding on to the solvers of lower orders of the same category of puzzles, without having to start from scratch. This is precisely how I had built my solver for the 1x2x3 Rubik’s puzzle from my 1x2x2 puzzle solver by adding a few extra lines of code that correctly orient the middle layer pieces which are absent from a 1x2x2 puzzle.
+
+
+
+
+
+
+
+
+
+
+
+### References
+- https://en.wikipedia.org/wiki/Rubik%27s_Cube
+- https://ruwix.com/the-rubiks-cube/how-to-solve-the-rubiks-cube-beginners-method/
+- https://medium.com/@chaitanyaanimesh/calculating-the-number-of-permutations-of-the-rubiks-cube-121066f5f054
+- https://en.wikipedia.org/wiki/Ern%C5%91_Rubik
+- https://en.wikipedia.org/wiki/Big_O_notation
+- http://kociemba.org/math/papers/rubik20.pdf
+- https://en.wikipedia.org/wiki/Game_tree
+- https://en.wikipedia.org/wiki/Iterative_deepening_A*
+- https://en.wikipedia.org/wiki/A*_search_algorithm
+- https://en.wikipedia.org/wiki/Heuristic_(computer_science)
+- https://medium.com/towards-data-science/building-a-chess-engine-part2-db4784e843d5
