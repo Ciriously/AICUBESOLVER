@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 import kociemba as Cube
 import time
-import colorama
+import colorama #Modules Imported
 GREEN = colorama.Fore.GREEN
 GRAY = colorama.Fore.LIGHTBLACK_EX
 RESET = colorama.Fore.RESET
@@ -27,7 +27,7 @@ time.sleep(2)
 print("")
 print("")
 print(f"{MAGENTA}Please refer preview window for which side you have scanned and which color should be in centre on each side. ")
-
+#initalize the variables by state variables where we have included all the sides of cubes and initalize it by white squares
 state=  {
             'up':['white','white','white','white','white','white','white','white','white',],
             'right':['white','white','white','white','white','white','white','white','white',],
@@ -36,7 +36,7 @@ state=  {
             'left':['white','white','white','white','white','white','white','white','white',],
             'back':['white','white','white','white','white','white','white','white','white',]
         }
-
+#def new dict called signed converter(imp) Front=l.... define the sides
 sign_conv={
             'green'  : 'F',
             'white'  : 'U',
@@ -45,7 +45,7 @@ sign_conv={
             'orange' : 'L',
             'yellow' : 'D'
           }
-
+#color dict consits of all the color of all the sides of the cube with its RGB values
 color = {
         'red'    : (0,0,255),
         'orange' : (0,165,255),
@@ -54,7 +54,7 @@ color = {
         'white'  : (255,255,255),
         'yellow' : (0,255,255)
         }
-
+#it contains of cordinates of each and every squares of the main frame and review frames 
 stickers = {
         'main': [
             [200, 120], [300, 120], [400, 120],
@@ -102,8 +102,9 @@ stickers = {
             [464, 368], [508, 368], [552, 368]
         ],
            }
-
+#just to change the font 
 font = cv2.FONT_HERSHEY_SIMPLEX  
+#we importedletters on review panel and assigned them coordinates
 textPoints=  {
             'up':[['U',242, 202],['W',(255,255,255),260,208]],
             'right':[['R',380, 354],['R',(0,0,255),398,360]],
