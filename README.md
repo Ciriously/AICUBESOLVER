@@ -30,3 +30,9 @@ Install VSCODE installer to update image.png
 - 2 steps
 - first initialization of all sides of cue along with the main sides that we have to rotate
 - second we need to update the all sides that should be after countercloclkwise rotated
+## for example -  
+                    - if we are rotating('front') then
+                        - 3rd 6th and 9th square of the left sidewill move upt th 7 8 9 
+                        - likewise we need to do for all rotation
+
+                        ## NOTE: this is not for solving Cube but for presenting the solution graphically

@@ -104,7 +104,7 @@ stickers = {
            }
 #just to change the font 
 font = cv2.FONT_HERSHEY_SIMPLEX  
-#we importedletters on review panel and assigned them coordinates
+#we importedletters on preview panel and assigned them coordinates
 textPoints=  {
             'up':[['U',242, 202],['W',(255,255,255),260,208]],
             'right':[['R',380, 354],['R',(0,0,255),398,360]],
