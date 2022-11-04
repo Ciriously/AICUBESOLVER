@@ -18,7 +18,15 @@ Once you get the solution window press any key to continue.
 
 Add All modules
 then download kociemba from GitHub and put it with python library file where it is accessible. then restart vscode it will work , you can also find tutorial for placing files in library folder.
-
+ 
 To Install Kociemba -pip install kociemba --
 Install VSCODE installer to update image.png
 ///// Update Readmeeeeeeee
+
+# 181 line Coloe detection
+
+### Rotate(side)
+- A clockwise rotation
+- 2 steps
+- first initialization of all sides of cue along with the main sides that we have to rotate
+- second we need to update the all sides that should be after countercloclkwise rotated
