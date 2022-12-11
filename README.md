@@ -21,4 +21,5 @@ then download kociemba from GitHub and put it with python library file where it 
 
 To Install Kociemba -pip install kociemba --
 Install VSCODE installer to update image.png
-///// Update Readmeeeeeeee
+///// Update Readmee
+Documentation in test branch..merge after error updates
